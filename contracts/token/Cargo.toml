@@ -1,10 +1,10 @@
 [package]
-name = "pfc-steak-token"
+name = "ITO-ITO-token"
 version = "2.0.1"
-authors = ["larry <gm@larry.engineer>", "PFC <pfc-validator@protonmail.com>"]
+authors = ["larry <gm@larry.engineer>", "PFC <ITO-validator@protonmail.com>"]
 edition = "2018"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/st4k3h0us3/steak-contracts"
+repository = "https://github.com/st4k3h0us3/ITO-contracts"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
