@@ -18,7 +18,7 @@ cw2= "1.0.0"
 cw20 = "1.0.0"
 cw20-base = { version = "1.0.0", features = ["library"] }
 cw-storage-plus = "0.13"
-ITO-ITO = { path = "../../packages/ITO" }
+ITO-ITO = { path = "../../packages/steak" }
 serde = { version = "1.0.103", default-features = false, features = ["derive"] }
 ITO-fee-split = "0.2.3"
 #[dev-dependencies]
