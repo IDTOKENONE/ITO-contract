@@ -7,8 +7,8 @@ use cosmwasm_std::{
 use cw20::{Cw20ExecuteMsg, MinterResponse};
 use cw20_base::msg::InstantiateMsg as Cw20InstantiateMsg;
 
-use pfc_ITO::DecimalCheckedOps;
-use pfc_ITO::hub::{
+use ITO_ITO::DecimalCheckedOps;
+use ITO_ITO::hub::{
     Batch, CallbackMsg, ExecuteMsg, FeeType, InstantiateMsg, PendingBatch, UnbondRequest,
 };
 
@@ -151,7 +151,7 @@ pub fn bond(deps: DepsMut, env: Env, receiver: Addr, funds: Vec<Coin>) -> StdRes
         denom: denom.clone(),
     };
 
-    // Query the current supply of Steak and compute the amount to mint
+    // Query the current supply of ITO and compute the amount to mint
     let uITO_supply = query_cw20_total_supply(&deps.querier, &ITO_token)?;
     let uITO_to_mint = compute_mint_amount(uITO_supply, amount_to_bond, &delegations);
     state.prev_denom.save(
@@ -319,7 +319,7 @@ pub fn reinvest(deps: DepsMut, env: Env) -> StdResult<Response> {
                     amount: vec![Coin::new(fee_amount.into(), &denom)],
                 })],
             FeeType::FeeSplit => {
-                let msg = pfc_fee_split::fee_split_msg::ExecuteMsg::Deposit { flush: false };
+                let msg = ITO_fee_split::fee_split_msg::ExecuteMsg::Deposit { flush: false };
 
                 vec![msg.into_cosmos_msg(fee_account, vec![Coin::new(fee_amount.into(), &denom)])?]
             }
