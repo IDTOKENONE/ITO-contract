@@ -4,7 +4,7 @@ version = "2.0.1"
 authors = ["larry <gm@larry.engineer>", "PFC <ITO-validator@protonmail.com>"]
 edition = "2018"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/st4k3h0us3/ITO-contracts"
+repository = "https://github.com/IDTOKENONE/ITO-contracts"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
