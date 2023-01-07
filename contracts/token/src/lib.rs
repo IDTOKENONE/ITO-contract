@@ -71,12 +71,12 @@ mod tests {
             .save(
                 deps.as_mut().storage,
                 &TokenInfo {
-                    name: "Steak Token".to_string(),
-                    symbol: "STEAK".to_string(),
+                    name: "Interchain Token".to_string(),
+                    symbol: "ITO".to_string(),
                     decimals: 6,
                     total_supply: Uint128::new(200),
                     mint: Some(MinterData {
-                        minter: Addr::unchecked("steak_hub"),
+                        minter: Addr::unchecked("ITO_hub"),
                         cap: None,
                     }),
                 },
@@ -86,7 +86,7 @@ mod tests {
         BALANCES
             .save(
                 deps.as_mut().storage,
-                &Addr::unchecked("steak_hub"),
+                &Addr::unchecked("ITO_hub"),
                 &Uint128::new(100)
             )
             .unwrap();
@@ -121,7 +121,7 @@ mod tests {
         let res = execute(
             deps.as_mut(),
             mock_env(),
-            mock_info("steak_hub", &[]),
+            mock_info("ITO_hub", &[]),
             ExecuteMsg::Burn {
                 amount: Uint128::new(100),
             },
@@ -129,7 +129,7 @@ mod tests {
         assert!(res.is_ok());
 
         // Steak Hub's token balance should have been reduced
-        let balance = BALANCES.load(deps.as_ref().storage, &Addr::unchecked("steak_hub")).unwrap();
+        let balance = BALANCES.load(deps.as_ref().storage, &Addr::unchecked("ITO_hub")).unwrap();
         assert_eq!(balance, Uint128::zero());
 
         // Total supply should have been reduced
@@ -145,7 +145,7 @@ mod tests {
         let res = execute(
             deps.as_mut(),
             mock_env(),
-            mock_info("steak_hub", &[]),
+            mock_info("ITO_hub", &[]),
             ExecuteMsg::BurnFrom {
                 owner: "alice".to_string(),
                 amount: Uint128::new(100),
