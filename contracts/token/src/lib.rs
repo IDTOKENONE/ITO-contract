@@ -117,7 +117,7 @@ mod tests {
         );
         assert_eq!(res, Err(StdError::generic_err("only minter can execute token burn").into()));
 
-        // Steak Hub can burn
+        // ITO Hub can burn
         let res = execute(
             deps.as_mut(),
             mock_env(),
@@ -128,7 +128,7 @@ mod tests {
         );
         assert!(res.is_ok());
 
-        // Steak Hub's token balance should have been reduced
+        // ITO Hub's token balance should have been reduced
         let balance = BALANCES.load(deps.as_ref().storage, &Addr::unchecked("ITO_hub")).unwrap();
         assert_eq!(balance, Uint128::zero());
 
@@ -141,7 +141,7 @@ mod tests {
     fn disabling_burn_from() {
         let mut deps = setup_test();
 
-        // Not even Steak Hub can invoke `burn_from`
+        // Not even ITO Hub can invoke `burn_from`
         let res = execute(
             deps.as_mut(),
             mock_env(),
