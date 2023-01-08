@@ -1,10 +1,10 @@
 [package]
-name = "ITO-ITO"
+name = "pfc-steak-hub"
 version = "2.1.14"
-authors = ["larry <gm@larry.engineer>", "PFC <ITO-validator@protonmail.com>"]
+authors = ["larry <gm@larry.engineer>", "PFC <pfc-validator@protonmail.com>"]
 edition = "2018"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/IDTOKENONE/ITO-contract"
+repository = "https://github.com/st4k3h0us3/steak-contracts"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
@@ -18,8 +18,8 @@ cw2= "1.0.0"
 cw20 = "1.0.0"
 cw20-base = { version = "1.0.0", features = ["library"] }
 cw-storage-plus = "0.13"
-ITO-ITO = { path = "../../packages/steak" }
+pfc-steak = { path = "../../packages/steak" }
 serde = { version = "1.0.103", default-features = false, features = ["derive"] }
-ITO-fee-split = "0.2.3"
+pfc-fee-split = "0.2.3"
 #[dev-dependencies]
 #serde = { version = "1.0.103", default-features = false, features = ["derive"] }
