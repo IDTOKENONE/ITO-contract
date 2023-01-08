@@ -1,4 +1,4 @@
-# Steak 🥩
+# ITOSteak 🥩
 
 Terra liquid staking derivative. Of the community, by the community, for the community.
 
@@ -13,25 +13,25 @@ A previous version ([v1.0.0-rc0](https://github.com/st4k3h0us3/steak-contracts/r
 
 ## Deployment
 
-### Mainnet (phoenix-1)
+### Mainnet (phoenix-1) ITO steak mainnet
 
 | Contract            | Address                                                                                                                                                                           |
 | ------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Steak Hub           | [`terra12e4v50xl33fnwkzltz9vu565snlmx65vdrk8e2644km09myewr8q538psc`](https://finder.terra.money/mainnet/address/terra12e4v50xl33fnwkzltz9vu565snlmx65vdrk8e2644km09myewr8q538psc) |
-| Steak Token         | [`terra1xumzh893lfa7ak5qvpwmnle5m5xp47t3suwwa9s0ydqa8d8s5faqn6x7al`](https://finder.terra.money/mainnet/address/terra1xumzh893lfa7ak5qvpwmnle5m5xp47t3suwwa9s0ydqa8d8s5faqn6x7al) |
-| STEAK-LUNA Pair     | [`terra1jynmf6gteg4rd03ztldan5j2dp78su4tc3hfvkve8dl068c2yppsk5uszc`](https://finder.terra.money/mainnet/address/terra1jynmf6gteg4rd03ztldan5j2dp78su4tc3hfvkve8dl068c2yppsk5uszc)                                                                                                           |
+| Steak Hub           | [`terra1dayjeszzldn5pjzv4grt7gxuutw7npuecpgc59n4s3gpeat0el2qcutav0`](https://finder.terra.money/mainnet/address/terra1dayjeszzldn5pjzv4grt7gxuutw7npuecpgc59n4s3gpeat0el2qcutav0) |
+| Steak Token         | [`terra1087lrvk5zulanrjhdtcfrf49udx70dxqt7erhn4qssu5k60vz92qcrpv8w`](https://finder.terra.money/mainnet/address/terra1087lrvk5zulanrjhdtcfrf49udx70dxqt7erhn4qssu5k60vz92qcrpv8w) |
+| STEAK-LUNA Pair     | [`tbd`]()                                                                                                           |
 | STEAK-LUNA LP Token | [`tbd`]()                                                                                                                                                                         |
 
 ### Testnet (pisco-1)
 
-| Contract            | Address                                                                                                                                                                           |
+| Contract            | Address  From larry                                                                                                                                                                         |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Steak Hub           | [`terra1lm7d4zr97rzp3a22szdv6ucpeyckyl2l2wh6jc9qrga78eyrvamsjgs5q6`](https://finder.terra.money/testnet/address/terra1lm7d4zr97rzp3a22szdv6ucpeyckyl2l2wh6jc9qrga78eyrvamsjgs5q6) |
 | Steak Token         | [`terra1q02glqy2gcl9kavshhh9tzr3l7cjwjwk7mhatd9h9nc243gq73esdat6wj`](https://finder.terra.money/testnet/address/terra1q02glqy2gcl9kavshhh9tzr3l7cjwjwk7mhatd9h9nc243gq73esdat6wj) |
 | STEAK-LUNA Pair     | [`tbd`]()                                                                                                                                                                         |
 | STEAK-LUNA LP Token | [`tbd`]()                                                                                                                                                                         |
 
-### Classic mainnet (columbus-5)
+### Classic mainnet (columbus-5) From larry
 
 | Contract            | Address                                                                                                                                   |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
