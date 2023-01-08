@@ -17,10 +17,10 @@ A previous version ([v1.0.0-rc0](https://github.com/st4k3h0us3/steak-contracts/r
 
 | Contract            | Address                                                                                                                                                                           |
 | ------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Steak Hub           | [`terra1dayjeszzldn5pjzv4grt7gxuutw7npuecpgc59n4s3gpeat0el2qcutav0`](https://finder.terra.money/mainnet/address/terra1dayjeszzldn5pjzv4grt7gxuutw7npuecpgc59n4s3gpeat0el2qcutav0) |
-| Steak Token         | [`terra1087lrvk5zulanrjhdtcfrf49udx70dxqt7erhn4qssu5k60vz92qcrpv8w`](https://finder.terra.money/mainnet/address/terra1087lrvk5zulanrjhdtcfrf49udx70dxqt7erhn4qssu5k60vz92qcrpv8w) |
-| STEAK-LUNA Pair     | [`tbd`]()                                                                                                           |
-| STEAK-LUNA LP Token | [`tbd`]()                                                                                                                                                                         |
+| ITO Steak Hub           | [`terra1dayjeszzldn5pjzv4grt7gxuutw7npuecpgc59n4s3gpeat0el2qcutav0`](https://finder.terra.money/mainnet/address/terra1dayjeszzldn5pjzv4grt7gxuutw7npuecpgc59n4s3gpeat0el2qcutav0) |
+| ITO Steak Token         | [`terra1087lrvk5zulanrjhdtcfrf49udx70dxqt7erhn4qssu5k60vz92qcrpv8w`](https://finder.terra.money/mainnet/address/terra1087lrvk5zulanrjhdtcfrf49udx70dxqt7erhn4qssu5k60vz92qcrpv8w) |
+| ITO-LUNA Pair     | [`tbd`]()                                                                                                           |
+| ITO-LUNA LP Token | [`tbd`]()                                                                                                                                                                         |
 
 ### Testnet (pisco-1)
 
