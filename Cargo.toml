@@ -3,12 +3,12 @@ members = ["contracts/*", "packages/*"]
 
 [profile.release.package.pfc-steak]
 opt-level = 3
-debug = false
-debug-assertions = false
+debug = true
+debug-assertions = true
 codegen-units = 1
-incremental = false
+incremental = true
 
 [profile.release]
-rpath = false
+rpath = true
 lto = true
 overflow-checks = true
